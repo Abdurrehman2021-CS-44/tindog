@@ -1,0 +1,164 @@
+h1 {
+    font-family: 'Montserrat-Black';
+    font-size: 3rem !important;
+    line-height: 1.5 !important;
+}
+
+body {
+    font-family: 'Montserrat';
+}
+
+#title {
+    background-color: #ff4c68;
+    color: white;
+    padding: 0 0 4%;
+}
+
+.rotate-image {
+    position: absolute;
+    width: 285px;
+    /* width: 60%; */
+    margin-left: 3%;
+    transform: rotate(25deg);
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem !important;
+    font-weight: bold;
+}
+
+.navbar {
+    padding: 0 0 4.5rem !important;;
+}
+
+.nav-item {
+    margin: 0 18px;
+    font-size: larger;
+}
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+.features-alignment {
+    text-align: center;
+    margin: 12% 0 !important;
+}
+
+.icons:hover {
+    color: #ef8172;
+}
+
+.feature-desc {
+    color: #8f8f8f;
+}
+
+.feature-title {
+    font-family: "Montserrat";
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 10%;
+}
+
+#features {
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5% !important;
+}
+
+.icon {
+    color: #ef8172;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+#testimonials {
+    background-color: #ef8172;
+    text-align: center;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+h2 {
+    font-family: 'Montserrat';
+    font-size: 3rem !important;
+    line-height: 1.5 !important;
+    font-weight: bold;
+    color: white;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding: 20px 20px 60px;
+}
+
+.press-logo {
+    width: 16%;
+}
+
+.carousel-inner {
+    padding: 7% 15%;
+}
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-cards {
+    color: black;
+}
+
+.pricing-col {
+    padding: 3% 2%;
+}
+
+@media (max-width: 990px){
+    #title {
+        text-align: center;
+    }
+    .rotate-image {
+        transform: rotate(0);
+        position: relative;
+    }
+}
+
+#cta {
+    background-color: #ff4c68;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.footer-link {
+    color: black;
+    margin: 5% 1%;
+}
+
+.footer-link:hover {
+    color: #ff4c68;
+    margin: 5% 1%;
+}
+
+.copywrite {
+    margin-top: 2%;
+    /* font-weight: bold; */
+    color: rgb(129, 140, 136);
+}
